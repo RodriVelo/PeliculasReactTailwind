@@ -22,6 +22,7 @@ const Cards = ({ cuentosFiltrados, agregarCuentoFavorito, handleDetallesAutor })
             onDetails={() => handleDetallesAutor(cuento.idAutor)}
             translation1="card.favorite"
             translation2="card.author"
+            icono={true}
           />
         ))}
     </div>

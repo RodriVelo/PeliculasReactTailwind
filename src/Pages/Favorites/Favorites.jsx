@@ -62,6 +62,7 @@ const Favorites = () => {
               translation2="card.author"
               onClickFav={() => eliminarFavorito(cuento)}
               onDetails={() => handleDetallesAutor(cuento.idAutor)}
+              icono={false}
             />
           ))
         ) : (
